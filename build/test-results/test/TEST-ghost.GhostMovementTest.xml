@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ghost.GhostMovementTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-10-07T06:54:22.013Z" hostname="DESKTOP-01JIJS2" time="0.025">
+  <properties/>
+  <testcase name="getPossubleTurnsTest()" classname="ghost.GhostMovementTest" time="0.003"/>
+  <testcase name="tickMovementTest()" classname="ghost.GhostMovementTest" time="0.004"/>
+  <testcase name="chooseModeTest()" classname="ghost.GhostMovementTest" time="0.004"/>
+  <testcase name="decideTurnTest()" classname="ghost.GhostMovementTest" time="0.006"/>
+  <testcase name="tickTest()" classname="ghost.GhostMovementTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

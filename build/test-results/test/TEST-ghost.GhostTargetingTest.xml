@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ghost.GhostTargetingTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-10-07T06:54:22.042Z" hostname="DESKTOP-01JIJS2" time="0.011">
+  <properties/>
+  <testcase name="WhimTest()" classname="ghost.GhostTargetingTest" time="0.003"/>
+  <testcase name="ChaserTest()" classname="ghost.GhostTargetingTest" time="0.003"/>
+  <testcase name="IgnorantTest()" classname="ghost.GhostTargetingTest" time="0.002"/>
+  <testcase name="ambusherTest()" classname="ghost.GhostTargetingTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

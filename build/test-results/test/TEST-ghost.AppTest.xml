@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ghost.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-10-07T06:54:20.317Z" hostname="DESKTOP-01JIJS2" time="1.616">
+<testsuite name="ghost.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-10-07T07:10:42.750Z" hostname="DESKTOP-01JIJS2" time="1.678">
   <properties/>
-  <testcase name="restartTest()" classname="ghost.AppTest" time="1.616"/>
+  <testcase name="restartTest()" classname="ghost.AppTest" time="1.678"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

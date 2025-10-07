@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ghost.MapTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-10-07T06:54:22.055Z" hostname="DESKTOP-01JIJS2" time="0.649">
+<testsuite name="ghost.MapTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-10-07T07:10:44.543Z" hostname="DESKTOP-01JIJS2" time="0.694">
   <properties/>
-  <testcase name="testLoadImages()" classname="ghost.MapTest" time="0.643"/>
-  <testcase name="testParse()" classname="ghost.MapTest" time="0.002"/>
-  <testcase name="testRemove()" classname="ghost.MapTest" time="0.002"/>
+  <testcase name="testLoadImages()" classname="ghost.MapTest" time="0.686"/>
+  <testcase name="testParse()" classname="ghost.MapTest" time="0.004"/>
+  <testcase name="testRemove()" classname="ghost.MapTest" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

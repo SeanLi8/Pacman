@@ -14,13 +14,15 @@ plugins {
     id 'application'
 
     id 'jacoco'
+
 }
 
 repositories {
-    // Use jcenter for resolving dependencies.
-    // You can declare any Maven/Ivy/file repository here.
+    gradlePluginPortal()  // <--- add this here
     mavenCentral()
 }
+
+
 
 dependencies {
     // App dependencies
@@ -41,16 +43,15 @@ application {
 
 jar {
     manifest {
-        attributes 'Main-Class': application.mainClass
+        attributes(
+            'Main-Class': 'ghost.App'
+        )
     }
-
-    // Include dependencies inside the JAR
     from {
         configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
     }
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 }
-
 test {
     // Use junit platform for unit tests
     useJUnitPlatform()

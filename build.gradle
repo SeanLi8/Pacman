@@ -39,6 +39,18 @@ application {
     mainClass = 'ghost.App'
 }
 
+jar {
+    manifest {
+        attributes 'Main-Class': application.mainClass
+    }
+
+    // Include dependencies inside the JAR
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
+
 test {
     // Use junit platform for unit tests
     useJUnitPlatform()

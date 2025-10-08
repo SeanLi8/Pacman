@@ -98,7 +98,7 @@ public class App extends PApplet {
     }
 
     public void settings() {
-        size(WIDTH, HEIGHT, JAVA2D);
+        size(WIDTH, HEIGHT);
         
     }
     

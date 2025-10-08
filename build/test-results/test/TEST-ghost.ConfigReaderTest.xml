@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ghost.ConfigReaderTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-10-07T12:35:02.819Z" hostname="DESKTOP-01JIJS2" time="0.004">
+<testsuite name="ghost.ConfigReaderTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-10-08T03:39:55.923Z" hostname="DESKTOP-01JIJS2" time="0.003">
   <properties/>
-  <testcase name="simpleTest()" classname="ghost.ConfigReaderTest" time="0.004"/>
+  <testcase name="simpleTest()" classname="ghost.ConfigReaderTest" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

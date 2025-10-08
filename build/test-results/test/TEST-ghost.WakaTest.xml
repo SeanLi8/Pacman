@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ghost.WakaTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2025-10-07T12:35:03.709Z" hostname="DESKTOP-01JIJS2" time="0.387">
+<testsuite name="ghost.WakaTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2025-10-08T03:39:56.790Z" hostname="DESKTOP-01JIJS2" time="0.203">
   <properties/>
-  <testcase name="testGetFruit()" classname="ghost.WakaTest" time="0.002"/>
-  <testcase name="testCheckGhost()" classname="ghost.WakaTest" time="0.003"/>
-  <testcase name="testMove()" classname="ghost.WakaTest" time="0.002"/>
-  <testcase name="loadImageTest()" classname="ghost.WakaTest" time="0.059"/>
-  <testcase name="chooseSpriteTest()" classname="ghost.WakaTest" time="0.055"/>
-  <testcase name="testTickMovement()" classname="ghost.WakaTest" time="0.003"/>
-  <testcase name="tickTest()" classname="ghost.WakaTest" time="0.255"/>
-  <testcase name="testConstructor()" classname="ghost.WakaTest" time="0.002"/>
+  <testcase name="testGetFruit()" classname="ghost.WakaTest" time="0.003"/>
+  <testcase name="testCheckGhost()" classname="ghost.WakaTest" time="0.002"/>
+  <testcase name="testMove()" classname="ghost.WakaTest" time="0.003"/>
+  <testcase name="loadImageTest()" classname="ghost.WakaTest" time="0.025"/>
+  <testcase name="chooseSpriteTest()" classname="ghost.WakaTest" time="0.044"/>
+  <testcase name="testTickMovement()" classname="ghost.WakaTest" time="0.005"/>
+  <testcase name="tickTest()" classname="ghost.WakaTest" time="0.111"/>
+  <testcase name="testConstructor()" classname="ghost.WakaTest" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

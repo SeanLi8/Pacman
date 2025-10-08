@@ -11,8 +11,10 @@ public class GhostAmbusher extends Ghost{
     }
     
     public void loadImage(){
-        this.sprite=this.app.loadImage("src/main/resources/ambusher.png");
-        this.frightenedSprite=this.app.loadImage("src/main/resources/frightened.png");
+        //this.sprite=this.app.loadImage("src/main/resources/ambusher.png");
+        //this.frightenedSprite=this.app.loadImage("src/main/resources/frightened.png");
+        this.sprite = this.app.loadImage(getClass().getResource("/ambusher.png").toString());
+        this.frightenedSprite = this.app.loadImage(getClass().getResource("/frightened.png").toString());
     }
 
     public int[] chaseTarget(){

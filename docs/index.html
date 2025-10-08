@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Pac-Man Demo</title>
+    <script src="https://cjrtnc.leaningtech.com/4.2/loader.js"></script>
+  </head>
+  <body>
+    <script>
+      (async function () {
+        await cheerpjInit({ verbose: true });
+        cheerpjCreateDisplay(448, 576);
+        await cheerpjRunJar("Pacman.jar"); // just the filename, same folder
+      })();
+    </script>
+  </body>
+</html>

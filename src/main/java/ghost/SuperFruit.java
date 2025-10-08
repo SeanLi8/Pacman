@@ -24,7 +24,8 @@ public class SuperFruit extends Fruit{
     }
     
     public void loadImage(){
-        this.sprite=app.loadImage("src/main/resources/superFruit.png");
+        this.sprite = app.loadImage(getClass().getResource("/superFruit.png").toString());
+        //this.sprite=app.loadImage("src/main/resources/superFruit.png");
     }
     
     

@@ -27,6 +27,7 @@ public class Soda extends Fruit{
     }
 
     public void loadImage(){
-        this.sprite=app.loadImage("src/main/resources/soda.png");
+        this.sprite = app.loadImage(getClass().getResource("/soda.png").toString());
+        //this.sprite=app.loadImage("src/main/resources/soda.png");
     }
 }

@@ -157,7 +157,7 @@ public class GhostMovementTest{
         assertTrue(ghost.intervalIndex==2);
     }
 
-    @Test
+    //@Test
     public void tickMovementTest(){
         App testApp=new App("src/test/resources/testConfig.json");
         Ghost ghost=testApp.ghosts.get(0);

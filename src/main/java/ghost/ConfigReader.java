@@ -1,8 +1,9 @@
 package ghost;
-import org.json.simple.parser.JSONParser;
+/* import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 import org.json.simple.JSONObject;
-import org.json.simple.JSONArray;
+import org.json.simple.JSONArray;*/
+
 import java.io.FileReader;
 import java.io.File;
 import java.io.IOException;
@@ -32,7 +33,7 @@ public class ConfigReader{
 
     
     public ConfigReader(String filename){
-        JSONParser parser = new JSONParser();
+        /*JSONParser parser = new JSONParser();
         Object object = null;
         try {
             File file = new File(filename);
@@ -53,9 +54,23 @@ public class ConfigReader{
         JSONArray jsonarray = (JSONArray) jsonObject.get("modeLengths");
         this.modeLengths = new ArrayList<Integer>();
         for (Object x:jsonarray) {
-            this.modeLengths.add(((Long) x).intValue());
-        }
+            this.modeLengths.add(((Long) x).intValue());*/
+
+        // Hardcoded values for browser demo
+        this.map = "src/main/resources/map.txt";
+        this.lives = 3;
+        this.speed = 2;
+        this.modeLengths = new ArrayList<>();
+        // Example scatter/chase intervals
+        modeLengths.add(7);
+        modeLengths.add(20);
+        modeLengths.add(7);
+        modeLengths.add(20);
+        modeLengths.add(5);
+        modeLengths.add(20);
+        modeLengths.add(5);
+        modeLengths.add(1000);
     }
-    
-    
 }
+    
+

@@ -9,8 +9,10 @@ public class GhostWhim extends Ghost{
         this.type=GhostType.whim;
     }
     public void loadImage(){
-        this.sprite=this.app.loadImage("src/main/resources/whim.png");
-        this.frightenedSprite=this.app.loadImage("src/main/resources/frightened.png");
+        this.sprite = this.app.loadImage(getClass().getResource("/whim.png").toString());
+        this.frightenedSprite = this.app.loadImage(getClass().getResource("/frightened.png").toString());
+        //this.sprite=this.app.loadImage("src/main/resources/whim.png");
+        //this.frightenedSprite=this.app.loadImage("src/main/resources/frightened.png");
     }
 
 

@@ -26,7 +26,8 @@ public class Fruit extends Cell{
     }
 
     public void loadImage(){
-        this.sprite=app.loadImage("src/main/resources/fruit.png");
+        this.sprite = app.loadImage(getClass().getResource("/fruit.png").toString());
+        //this.sprite=app.loadImage("src/main/resources/fruit.png");
     }
 
 }

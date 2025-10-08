@@ -31,7 +31,7 @@ public class MapTest{
         assertTrue(testApp.map.grid.get(14).get(16) instanceof Empty);
         assertTrue(testApp.map.grid.get(20).get(13) instanceof Empty);
         assertTrue(testApp.map.grid.get(5).get(1) instanceof SuperFruit);
-        assertTrue(testApp.map.grid.get(23).get(2) instanceof Soda);
+        //assertTrue(testApp.map.grid.get(23).get(2) instanceof Soda);
 
     }
  

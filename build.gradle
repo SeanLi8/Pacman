@@ -26,9 +26,8 @@ repositories {
 
 dependencies {
     // App dependencies
-    implementation 'com.google.guava:guava:29.0-jre'
     implementation 'org.processing:core:3.3.7'
-    implementation 'com.googlecode.json-simple:json-simple:1.1.1'
+    implementation 'org.json:json:20240303' // pure Java JSON
 
     // Modern JUnit 5
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.10.2'
@@ -40,7 +39,14 @@ application {
     // Define the main class for the application.
     mainClass = 'ghost.App'
 }
-
+sourceSets {
+    main {
+        resources {
+            srcDir 'src/main/resources'
+            include '**/*' // include all files
+        }
+    }
+}
 jar {
     manifest {
         attributes(
@@ -52,7 +58,15 @@ jar {
     }
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 }
+
+processResources {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
 test {
     // Use junit platform for unit tests
     useJUnitPlatform()
+}
+tasks.withType(JavaCompile) {
+    sourceCompatibility = '1.8'
+    targetCompatibility = '1.8'
 }

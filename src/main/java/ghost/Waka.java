@@ -46,13 +46,16 @@ public class Waka extends MovingObject{
     }
 
     public void loadImage(){
-        this.sprite=this.app.loadImage("src/main/resources/playerClosed.png");
-        this.upSprite=this.app.loadImage("src/main/resources/playerUp.png");
-        this.downSprite=this.app.loadImage("src/main/resources/playerDown.png");
-        this.leftSprite=this.app.loadImage("src/main/resources/playerLeft.png");
-        this.rightSprite=this.app.loadImage("src/main/resources/playerRight.png");
-
-
+        this.sprite = this.app.loadImage(getClass().getResource("/playerClosed.png").toString());
+        this.upSprite = this.app.loadImage(getClass().getResource("/playerUp.png").toString());
+        this.downSprite = this.app.loadImage(getClass().getResource("/playerDown.png").toString());
+        this.leftSprite = this.app.loadImage(getClass().getResource("/playerLeft.png").toString());
+        this.rightSprite = this.app.loadImage(getClass().getResource("/playerRight.png").toString());
+        //this.sprite=this.app.loadImage("src/main/resources/playerClosed.png");
+        //this.upSprite=this.app.loadImage("src/main/resources/playerUp.png");
+        //this.downSprite=this.app.loadImage("src/main/resources/playerDown.png");
+        //this.leftSprite=this.app.loadImage("src/main/resources/playerLeft.png");
+        //this.rightSprite=this.app.loadImage("src/main/resources/playerRight.png");
     }
     
 

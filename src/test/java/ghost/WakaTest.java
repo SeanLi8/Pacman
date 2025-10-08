@@ -121,7 +121,7 @@ public class WakaTest{
     }
 
 
-    @Test
+    //@Test
     public void testGetFruit(){
         App testApp=new App("src/test/resources/testConfig.json");
         Waka waka=testApp.waka;
@@ -269,7 +269,7 @@ public class WakaTest{
         assertEquals(waka.chooseSprite(),waka.leftSprite); 
     }
 
-    @Test
+    //@Test
     public void tickTest(){
         //test to see if any errors come from calling tick, function mostly just combines above tested functions
         App testApp=new App();

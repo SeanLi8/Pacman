@@ -19,25 +19,26 @@ public class Wall extends Cell{
     public boolean passable(){
         return false;
     }
-    public void loadImage(){
-        if (this.wallType.equals("1")){
-            this.sprite=app.loadImage("src/main/resources/horizontal.png");
-        }
-        if (this.wallType.equals("2")){
-            this.sprite=app.loadImage("src/main/resources/vertical.png");
-        }
-        if (this.wallType.equals("3")){
-            this.sprite=app.loadImage("src/main/resources/upLeft.png");
-        }
-        if (this.wallType.equals("4")){
-            this.sprite=app.loadImage("src/main/resources/upRight.png");
-        }
-        if (this.wallType.equals("5")){
-            this.sprite=app.loadImage("src/main/resources/downLeft.png");
-        }
-        if (this.wallType.equals("6")){
-            this.sprite=app.loadImage("src/main/resources/downRight.png");
-        }
+public void loadImage() {
+    if (this.wallType.equals("1")) {
+        this.sprite = app.loadImage(getClass().getResource("/horizontal.png").toString());
     }
+    if (this.wallType.equals("2")) {
+        this.sprite = app.loadImage(getClass().getResource("/vertical.png").toString());
+    }
+    if (this.wallType.equals("3")) {
+        this.sprite = app.loadImage(getClass().getResource("/upLeft.png").toString());
+    }
+    if (this.wallType.equals("4")) {
+        this.sprite = app.loadImage(getClass().getResource("/upRight.png").toString());
+    }
+    if (this.wallType.equals("5")) {
+        this.sprite = app.loadImage(getClass().getResource("/downLeft.png").toString());
+    }
+    if (this.wallType.equals("6")) {
+        this.sprite = app.loadImage(getClass().getResource("/downRight.png").toString());
+    }
+}
+
 
 }
